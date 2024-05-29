@@ -1,0 +1,88 @@
+body{
+  max-width: 1440px;
+  width: 100%;
+  min-height: 810px;
+  height: 100%;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.parent_grid{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(10,1fr);
+  width: 100%;
+  height: 100%;
+}
+.nav_bar{
+  grid-column: 3/9;
+  grid-row: 1/2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.svg{
+  width: 90px;
+  height: 36px;
+}
+.ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  gap: 1px;
+  list-style: none;
+  width: 267px;
+}
+.works , .Services , .Contacts{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-decoration:none;
+  color: #242635;
+  width: 42px;
+  height: 23px;
+}
+
+.box_text{
+  grid-column: 4/8;
+  grid-row: 4/7;
+  width: 574px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.h1{
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 120px;
+  letter-spacing: -2px;
+  color: #242635;
+  width: 455px;
+}
+.text{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #242635;
+  width: 573.5px;
+}
+.text_two{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #242635;
+}
+.img{
+  grid-column: 3/9;
+  grid-row: 7/11;
+  height: 486px;
+  width: 864px;
+}
