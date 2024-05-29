@@ -1,7 +1,7 @@
 body{
-  max-width: 1440px;
+  max-width: 90rem;
   width: 100%;
-  min-height: 810px;
+  min-height:50.625rem;
   height: 100%;
 }
 *{
@@ -32,7 +32,7 @@ body{
   grid-template-rows: 1fr;
   gap: 1px;
   list-style: none;
-  width: 267px;
+  width: 16.688rem;
 }
 .works , .Services , .Contacts{
   font-family: "Source Sans 3", sans-serif;
@@ -47,13 +47,11 @@ body{
 
 .box_text{
   grid-column: 4/8;
-  grid-row: 4/7;
-  width: 574px;
-  height: 198px;
+  grid-row: 4/6;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: space-evenly;
 }
 .h1{
   margin: 0px;
@@ -63,7 +61,7 @@ body{
   line-height: 120px;
   letter-spacing: -2px;
   color: #242635;
-  width: 455px;
+  width: 28.438rem;
 }
 .text{
   font-family: "Source Sans 3", sans-serif;
@@ -71,7 +69,6 @@ body{
   font-weight: 400;
   line-height: 33px;
   color: #242635;
-  width: 573.5px;
 }
 .text_two{
   font-family: "Source Sans 3", sans-serif;
@@ -83,6 +80,6 @@ body{
 .img{
   grid-column: 3/9;
   grid-row: 7/11;
-  height: 486px;
-  width: 864px;
+  height:30.375rem;
+  width: 54rem;
 }
