@@ -3,6 +3,8 @@ body{
   width: 100%;
   min-height:50.625rem;
   height: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 *{
   margin: 0px;
